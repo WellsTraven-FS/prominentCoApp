@@ -1,0 +1,26 @@
+{
+    "name": "wdv349-wellstraven-fs",
+    "version": "1.0.0",
+    "description": "heroku build",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ePortfolios/wdv349-WellsTraven-FS.git"
+    },
+    "keywords": [
+        "heroku",
+        "build"
+    ],
+    "author": "Traven Wells",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ePortfolios/wdv349-WellsTraven-FS/issues"
+    },
+    "homepage": "https://github.com/ePortfolios/wdv349-WellsTraven-FS#readme"
+}
