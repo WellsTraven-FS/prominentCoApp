@@ -7,6 +7,10 @@
         "doc": "docs"
     },
     "scripts": {
+        "start": "concurrently --kill-others  \"npm run dev\" \"npm run prominentapp\"",
+        "prominentapp": " npm --prefix ./dev/prominentapp run start ",
+        "dev": "npm --prefix ./dev/api run start",
+        "build": "react-scripts build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -22,5 +26,8 @@
     "bugs": {
         "url": "https://github.com/ePortfolios/wdv349-WellsTraven-FS/issues"
     },
-    "homepage": "https://github.com/ePortfolios/wdv349-WellsTraven-FS#readme"
+    "homepage": "https://github.com/ePortfolios/wdv349-WellsTraven-FS#readme",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
 }
