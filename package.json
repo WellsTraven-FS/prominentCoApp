@@ -8,9 +8,8 @@
     },
     "scripts": {
         "start": "concurrently --kill-others  \"npm run dev\" \"npm run prominentapp\"",
-        "prominentapp": " npm --prefix ./dev/prominentapp run start ",
+        "build": " npm --prefix ./dev/prominentapp run start ",
         "dev": "npm --prefix ./dev/api run start",
-        "build": "react-scripts build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
